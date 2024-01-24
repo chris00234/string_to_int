@@ -71,7 +71,7 @@ class Solution:
             if character == '-':
                 isneg = True
                 
-            if character >= '0' or character <= '9':
+            if character >= '0' and character <= '9':
                 result = result * 10
                 if character == '0':
                     result += 0
